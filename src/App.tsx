@@ -14,7 +14,7 @@ function App() {
           <CardWithForm />
           <CardWithForm2 />
         </div>
-        <div className="mt-16 mx-14 ">
+        <div className="mt-16 mx-auto w-[1270px]">
           <DashBoard />
         </div>
       </div>
