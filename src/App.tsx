@@ -1,8 +1,9 @@
 import { ThemeProvider } from './components/provider/ThemeProvider';
 import ThemeToggler from './components/common/ThemeToggler';
-import DashBoard from './components/custom/DashBoard';
-import { CardWithForm } from './components/custom/CardWithForm';
-import CardWithForm2 from './components/custom/CardWithForm2';
+// import DashBoard from './components/custom/DashBoard';
+// import { CardWithForm } from './components/custom/CardWithForm';
+// import CardWithForm2 from './components/custom/CardWithForm2';
+import Authentication from './components/custom/Authentication';
 
 function App() {
   return (
@@ -11,12 +12,13 @@ function App() {
         <ThemeToggler />
 
         <div className="flex justify-center items-center gap-8 my-40">
-          <CardWithForm />
-          <CardWithForm2 />
+          {/* <CardWithForm />
+          <CardWithForm2 /> */}
+          <Authentication />
         </div>
-        <div className="mt-16 mx-auto w-[1270px]">
+        {/* <div className="mt-16 mx-auto w-[1270px]">
           <DashBoard />
-        </div>
+        </div> */}
       </div>
     </ThemeProvider>
   );
