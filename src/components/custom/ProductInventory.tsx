@@ -34,10 +34,10 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 export const description =
   'A products dashboard with a sidebar navigation and a main content area. The dashboard has a header with a search input and a user menu. The sidebar has a logo, navigation as, and a card with a call to action. The main content area shows an empty state with a call to action.';
 
-export default function Dashboard() {
+export default function ProductInventory() {
   return (
-    <div className="border rounded-lg dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50">
-      <div className="grid min-h-[800px] w-full md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr] dark:text-neutral-50">
+    <div className="rounded-lg border dark:border-neutral-800 dark:bg-neutral-950 dark:text-neutral-50">
+      <div className="grid min-h-[800px] w-full dark:text-neutral-50 md:grid-cols-[220px_1fr] lg:grid-cols-[280px_1fr]">
         <div className="hidden border-r bg-muted/40 md:block">
           <div className="flex h-full flex-col gap-2">
             <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
