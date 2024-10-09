@@ -11,8 +11,8 @@ function App() {
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <div className="h-screen w-screen dark:bg-zinc-950">
         <div className="flex w-full items-center justify-between px-8 py-4">
-          <ThemeDropdown />
           <ThemeToggler />
+          <ThemeDropdown />
         </div>
 
         <div className="my-40 flex items-center justify-center gap-8">
